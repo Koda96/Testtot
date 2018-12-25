@@ -7,6 +7,7 @@ import os
 
 Client = discord.Client()
 client = commands.bot(command_prefix = ".")
+
 @client.event
 async def on_ready():
 	print("Hola")
